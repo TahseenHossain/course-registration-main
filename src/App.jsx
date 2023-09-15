@@ -27,12 +27,13 @@ function App() {
     setRemainingTime(newRemainingTime);  
     setReadingTime(newReadingTime);
 
-    const newCredits = [...credits, course];
-    setCredits(newCredits);
-
     const newPrice = (price + course.price);
     setPrice(newPrice);
     console.log(newPrice);
+    
+    const newCredits = [...credits, course];
+    setCredits(newCredits);
+
   }
 
   return (
