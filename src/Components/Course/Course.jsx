@@ -8,7 +8,7 @@ const Course = ({course,handleAddToCredits}) => {
 
 
     return (
-        <div className='bg-white p-4 mb-6 rounded-xl'>
+        <div className='bg-white p-4 mb-6 rounded-xl w-80'>
             <img className='w-72 h-36 rounded-lg' src={cover} alt={`Cover Picture of ${title}`} />
             <h3 className='text-lg pt-4 pb-3'>{title}</h3>
             <h5 className='text-sm w-72 pb-5'>{description}</h5>
