@@ -13,7 +13,7 @@ const Courses = ({handleAddToCredits}) => {
     },[])
 
     return (
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-8 md:gap-0 justify-around">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-0 lg:gap-8 justify-around">
             {                
                 courses.map(course => <Course key={course.id} course = {course} handleAddToCredits = {handleAddToCredits}></Course>)
             }
